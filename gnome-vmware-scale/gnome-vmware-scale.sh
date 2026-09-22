@@ -24,16 +24,16 @@ case "$CURRENT_RES" in
         TARGET_DOCK=32
         ;;
 
-    "3838x1949"|"1928x829")
+    "3838x1949"|"3838x1997")
         TARGET_SCALE="1.5"
         TARGET_CURSOR=36
         TARGET_DOCK=48
         ;;
 
-    "1918x869")
-        TARGET_SCALE="2.0"
-        TARGET_CURSOR=48
-        TARGET_DOCK=64
+    "1918x869"|"1918x917")
+        TARGET_SCALE="1.5"
+        TARGET_CURSOR=36
+        TARGET_DOCK=48
         ;;
 
     *)
